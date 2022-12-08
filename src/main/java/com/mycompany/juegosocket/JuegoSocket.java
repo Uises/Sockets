@@ -1,16 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.mycompany.juegosocket;
 
-/**
- *
- * @author ulise
- */
+import java.net.Socket;
+
 public class JuegoSocket {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+      Socket sc = new Socket();
     }
 }
